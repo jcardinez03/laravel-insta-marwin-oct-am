@@ -10,7 +10,7 @@
     <title>{{ config('app.name') }} | @yield('title')</title>
 
     <!-- Scripts -->
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
 
     {{-- Custom CSS --}}
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
